@@ -1,0 +1,23 @@
+﻿{
+  "applications": {
+    "Loyalty.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44308",
+      "path": "../../../src/Loyalty.HttpApi.Host/Loyalty.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$",
+      "execution": {
+        "order": 4
+      }
+    },
+    "Loyalty.Angular": {
+      "type": "cli",
+      "workingDirectory": "../../../angular",
+      "startCommand": "./start.ps1",
+      "launchUrl": "http://localhost:4200",
+      "kubernetesService": ".*-angular$",
+      "execution": {
+        "order": 2
+      }    
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.5",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Loyalty.Application": {
+      "path": "src/Loyalty.Application/Loyalty.Application.abppkg",
+      "folder": "src"
+    },
+    "Loyalty.Application.Tests": {
+      "path": "test/Loyalty.Application.Tests/Loyalty.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Loyalty.Domain.Shared": {
+      "path": "src/Loyalty.Domain.Shared/Loyalty.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Loyalty.Application.Contracts": {
+      "path": "src/Loyalty.Application.Contracts/Loyalty.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Loyalty.HttpApi": {
+      "path": "src/Loyalty.HttpApi/Loyalty.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Loyalty.HttpApi.Client": {
+      "path": "src/Loyalty.HttpApi.Client/Loyalty.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Loyalty.EntityFrameworkCore.Tests": {
+      "path": "test/Loyalty.EntityFrameworkCore.Tests/Loyalty.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Loyalty.EntityFrameworkCore": {
+      "path": "src/Loyalty.EntityFrameworkCore/Loyalty.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Loyalty.TestBase": {
+      "path": "test/Loyalty.TestBase/Loyalty.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Loyalty.Domain.Tests": {
+      "path": "test/Loyalty.Domain.Tests/Loyalty.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Loyalty.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Loyalty.HttpApi.Client.ConsoleTestApp/Loyalty.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Loyalty.DbMigrator": {
+      "path": "src/Loyalty.DbMigrator/Loyalty.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Loyalty.HttpApi.Host": {
+      "path": "src/Loyalty.HttpApi.Host/Loyalty.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Loyalty.Domain": {
+      "path": "src/Loyalty.Domain/Loyalty.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
